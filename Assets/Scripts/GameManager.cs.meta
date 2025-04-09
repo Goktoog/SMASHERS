@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cdb217d1f119b2e449962c9c721e7417
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fullBreadSprite: {fileID: 21300000, guid: a37e3b134df9a444eaf7a4c19e1da0e0, type: 3}
+  - emptyBreadSprite: {fileID: 21300000, guid: 30acd1575376e1f42a6d61fc7ce78a8c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

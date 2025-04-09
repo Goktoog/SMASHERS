@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 2712b89eac153744e8ab0fd67fe8d5be
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: sol_anten
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 319
+      width: 35
+      height: 172
+    spriteID: 179775ff4d397da49b23a746c0e0a62c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 319}
+    spritePosition: {x: 201, y: 337}
+  - name: sag_anten
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 174
+      width: 88
+      height: 163
+    spriteID: 0d1f8725abc3a744c85a18a869c2df9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 174}
+    spritePosition: {x: 262, y: 327}
+  - name: Kafa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 174
+      height: 162
+    spriteID: 0e8907df2e7617f499bdf5daaa6bb7a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 164, y: 191}
+  - name: sol _el
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 345
+      width: 88
+      height: 91
+    spriteID: 6d39cdc083463a44d9236548d95fd970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 345}
+    spritePosition: {x: 199, y: 90}
+  - name: sol_bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 174
+      width: 99
+      height: 137
+    spriteID: 06ec6957b4c9a3c4599cd280c72ce4b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 174}
+    spritePosition: {x: 100, y: 29}
+  - name: vucut
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 132
+      height: 198
+    spriteID: a5567dae1eba5e44f9262413ccda619d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+    spritePosition: {x: 153, y: 0}
+  - name: sag_el
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 4
+      width: 90
+      height: 64
+    spriteID: 90d40ffb85483a743aef2f4aca418dff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 4}
+    spritePosition: {x: 275, y: 124}
+  - name: sopa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 174
+      width: 83
+      height: 246
+    spriteID: 193a1648388f286438a5e066d4571585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 174}
+    spritePosition: {x: 288, y: 3}
+  - name: sag_bilek
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 444
+      width: 23
+      height: 29
+    spriteID: 6405ab16b2fd3074caf94465d80eaab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 444}
+    spritePosition: {x: 314, y: 125}
+  - name: sag_bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 380
+      width: 106
+      height: 128
+    spriteID: b2bc7cb15620554469c29fca2d6d6752
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 380}
+    spritePosition: {x: 264, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: headitems
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 454ea9182557feb4e9343ea1f5a95ec3
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: sol_anten
+    spriteName: sol_anten
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 179775ff4d397da49b23a746c0e0a62c
+    layerID: 45
+    mosaicPosition: {x: 331, y: 319}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sag_anten
+    spriteName: sag_anten
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0d1f8725abc3a744c85a18a869c2df9e
+    layerID: 44
+    mosaicPosition: {x: 235, y: 174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Kafa
+    spriteName: Kafa
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0e8907df2e7617f499bdf5daaa6bb7a8
+    layerID: 48
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: solKolveBacak
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b001bbb8713695f4598377aac22d8973
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: sol _el
+    spriteName: sol _el
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 6d39cdc083463a44d9236548d95fd970
+    layerID: 47
+    mosaicPosition: {x: 235, y: 345}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sol_bacak
+    spriteName: sol_bacak
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 06ec6957b4c9a3c4599cd280c72ce4b3
+    layerID: 46
+    mosaicPosition: {x: 331, y: 174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: vucut
+    spriteName: vucut
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a5567dae1eba5e44f9262413ccda619d
+    layerID: 43
+    mosaicPosition: {x: 4, y: 174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sag_kol_ve_bacak
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 18c6579b6dbdfd342af1c5ac121d9e91
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: sag_el
+    spriteName: sag_el
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 90d40ffb85483a743aef2f4aca418dff
+    layerID: 49
+    mosaicPosition: {x: 186, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sopa
+    spriteName: sopa
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 193a1648388f286438a5e066d4571585
+    layerID: 54
+    mosaicPosition: {x: 144, y: 174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sag_bilek
+    spriteName: sag_bilek
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 6405ab16b2fd3074caf94465d80eaab0
+    layerID: 60
+    mosaicPosition: {x: 235, y: 444}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sag_bacak
+    spriteName: sag_bacak
+    isGroup: 0
+    parentIndex: 8
+    spriteID: b2bc7cb15620554469c29fca2d6d6752
+    layerID: 55
+    mosaicPosition: {x: 4, y: 380}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

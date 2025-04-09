@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boundary
+  - Enemy_ant
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Deneme
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 4187086343
+    locked: 0
+  - name: Ground+
+    uniqueID: 1324125425
+    locked: 0
+  - name: Insects
+    uniqueID: 762055665
+    locked: 0
+  - name: Bread
+    uniqueID: 2486793891
+    locked: 0
+  - name: Home
+    uniqueID: 3998172851
+    locked: 0
+  - name: "b\u0131d\u0131b\u0131\u0131"
+    uniqueID: 504184163
+    locked: 0

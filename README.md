@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3cd2f87d-42ab-4c40-91f1-ce4182868624)![image](https://github.com/user-attachments/assets/ca554c26-3ae0-4702-b521-24f4a15c14f1)# Smashers 🐜
+# Smashers 🐜
 
 ## Oyun Açıklaması
 SMASHERS, oyuncunun ağustos böceğinin hakkı olan ekmeği korumasına yardım ettiği, etraftan dalgalar halinde gelen karıncaları ezmeye çalıştığı, tek kişilik geliştirilen bir aksiyon/ritim/koruma oyunudur. Oyunun hikayesi, sahip olduğu üç dilim ekmeği korumaya çalışan bir ağustos böceği ile başlar. Her yönden gelen karıncalar bu ekmekleri ele geçirmeye çalışır. Oyuncunun görevi, Ağustos böceği gitarını kullanarak bu istilayı durdurmaya çalışırken senin de karıncalara acımadan basman.

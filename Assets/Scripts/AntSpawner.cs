@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class AntSpawner : MonoBehaviour
 {
-    public GameObject antPrefab; // Karınca prefab'ini buraya ekleyin
-    public Transform target; // Hedef (örn. ekmek)
-    public float spawnInterval = 2f; // Karıncaların spawn olma süresi
-    public float spawnHeightOffset = 15f; // Spawner’ın hedefin üzerinde ne kadar yukarıda olacağı
+    public GameObject antPrefab; 
+    public Transform target; // Hedef 
+    public float spawnInterval = 2f; // spawn olma süre boşluğum
+    public float spawnHeightOffset = 15f; // Spawner’ın hedefin üzerinde ne kadar yukarıda olacağı (mapin dışından atıyor)
 
     private void Start()
     {

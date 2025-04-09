@@ -3,12 +3,12 @@ using UnityEngine;
 public class Ant : MonoBehaviour
 {
     public float speed = 3f; // Karıncanın hareket hızı
-    public float rotationSpeed = 5f; // Karıncanın hedefe dönme hızı
+    public float rotationSpeed = 5f; // Karıncanın hedefe (ekmeğe) dönme hızı
     public Transform bread; // Ekmeğin transform'u
     private Transform target; // Karıncanın ulaşacağı hedef
     private bool isCarryingBread = false; // Karınca ekmeği taşıyor mu?
 
-    // Hedefi belirleyen bir fonksiyon
+    // Hedefi yani ekmeği belirleyen bir fonksiyon
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;
@@ -18,13 +18,13 @@ public class Ant : MonoBehaviour
     {
         if (target != null)
         {
-            // Hedefe doğru dön ve hareket et
+            // Hedefe doğru dön ve hareket et 
             MoveTowardsTarget();
 
             // Eğer hedefe ulaşıldıysa
             if (Vector3.Distance(transform.position, target.position) < 0.2f)
             {
-                CarryBread(); // Ekmeği al
+                CarryBread(); // Ekmeği al( BURADA DÜZENLEMELER GEREK)
             }
         }
 
@@ -32,7 +32,7 @@ public class Ant : MonoBehaviour
         CheckTouchInput();
     }
 
-    // Hedefe doğru dönerek hareket et
+    // Hedefe doğru dönerek hareket et (karıncanın kafasında sensörler olması)
     private void MoveTowardsTarget()
     {
         Vector3 direction = (target.position - transform.position).normalized;
@@ -44,7 +44,7 @@ public class Ant : MonoBehaviour
         transform.position += transform.up * speed * Time.deltaTime;
     }
 
-    // Ekmeği al ve taşı
+    // Ekmeği al ve taşı (DÜZENLEMELER GEREKLİ EKMEKLER BAZEN CHILD OLDUĞUNDAN DOKUNULAMAZ OLUYOR)
     private void CarryBread()
     {
         if (!isCarryingBread)
@@ -85,7 +85,7 @@ public class Ant : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
                 RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-                // Güncelleme: Raycast, karınca ya da ekmeği kontrol ediyor
+                // Güncelleme: Raycast, karınca ya da ekmeği kontrol ediyor (raycast ile kontrol ettirdim ama çalışmıyor gibi)
                 if (hit.collider != null && (hit.collider.gameObject == gameObject || hit.collider.gameObject == bread.gameObject))
                 {
                     if (isCarryingBread)
@@ -101,7 +101,7 @@ public class Ant : MonoBehaviour
     // Fare tıklamasını kontrol et
     void OnMouseDown()
     {
-        // Güncelleme: Karınca ya da ekmeğe tıklanırsa yok et
+        // Güncelleme: Karınca ya da ekmeğe tıklanırsa yok et (ŞİMDİLİK CHILD SORUNUNU ÇÖZMEK İÇİN BUNU KULLANIYORUM)
         if (isCarryingBread)
         {
             DropBread();

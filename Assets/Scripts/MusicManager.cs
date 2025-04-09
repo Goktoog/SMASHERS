@@ -27,7 +27,7 @@ public class MusicManager : MonoBehaviour
 
         if (carryingAnts == 1)
         {
-            // İlk karınca ekmeği taşıyorsa gerilim müziğini başlat
+            // Karınca ekmeği taşıyorsa gerilim müziğini başlat
             backgroundMusic.Stop();
             tensionMusic.loop = true;
             tensionMusic.Play();
@@ -41,7 +41,7 @@ public class MusicManager : MonoBehaviour
         if (carryingAnts <= 0)
         {
             carryingAnts = 0;
-            // Hiç karınca ekmeği taşımıyorsa normal müziğe geç
+            // Karınca ekmeği taşımıyorsa normal müzik
             tensionMusic.Stop();
             backgroundMusic.Play();
         }

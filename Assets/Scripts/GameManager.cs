@@ -13,11 +13,11 @@ public class GameManager : MonoBehaviour
         // Singleton kontrolü
         if (instance == null)
         {
-            instance = this; // Eğer instance yoksa bu scripti atayın
+            instance = this; 
         }
         else
         {
-            Destroy(gameObject); // Birden fazla GameManager varsa fazlalığı yok et
+            Destroy(gameObject); 
         }
     }
     void Start()
@@ -61,6 +61,6 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("Oyun bitti!");
-        // Burada oyunu durdurabilir veya bir Game Over ekranı gösterebilirsiniz
+        // ŞİMDİLİK SADECE DEBUG KONSOLUNDAN Bİ MESAJ ÇIKTISI VERİYORUM İLERİDE BİR GAME OVER EKRANI lazım olacak.
     }
 }

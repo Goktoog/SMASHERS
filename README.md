@@ -18,17 +18,30 @@ Oyunun içerisindeki Karakter çizimleri, animasyonlar, modeller, Ses efektleri,
 
 ## Öğrendiğim Yapılar:
 -Temel AI davranışları: Hedefe yönelme, hedefe göre etrafında dönme, hedefi taşıma vb.
+
 -Singleton yapısının Unity'de nasıl uygulanacağını ve farklı sınıflar arasında nasıl kullanılacağı
+
 -Dokunma (touch) ve fare (mouse) kontrollerini aynı sistemde birleştirerek platformlar arası uyumluluk
+
 -AudioSource'lar ile oyun içi dinamik müzik yönetimini
+
 -Transform ve Quaternion ile hedefe yönelme ve doğal dönüş animasyonları yapmayı
+
 -InvokeRepeating ile zamanlanmış işlem gerçekleştirmeyi
+
 -UI Image ve Sprite kullanarak can sistemini dinamik görsel olarak kullanıcıya sunmayı
+
 -Physics2D.Raycast ve OnTriggerExit2D ile sahne içi çarpışma ve sınır algılama
+
 -Yeniden doğma (respawn) mantığı clone oluşturmak
+
 -Sahne yönetimi ve menü kontrolü butonları (SceneManager, butonlar, ana menü ve çıkış sistemi)
+
 -Atmosfer detayları sinematik(örneğin ağaçların salınımı) ile sahneye canlılık katmayı
+
 -Blender kullanarak sinematik bir sahne üretimi ve temel 3D modelleme becerileri
+
+## Resimler
 
 Blender sinematik sahnem:
 
